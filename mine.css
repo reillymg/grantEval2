@@ -1,11 +1,12 @@
 body
 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #000000;
-	font-size: small;
+	font-family: Arial, Helvetica, sans-serif; /*Arial is technically web safe, so you don't need Helvetica as a back up. If anything I'd reverse it. But the design is fine. */
+	color: #000000; /*Technically this is extrainous. As black is the default. We want to code as efficinetly as possible so don't write code that the default handles for you.*/
+	font-size: small; /* Kind of glad this didn't wor */
 	background-color: #f6b26b;
 }
-
+/*Headings*/
+/* I would consider using a decender selector here and moving the text-align from the html to the css file. */
 h1
 	{
 		font-family: cursive;
@@ -23,7 +24,7 @@ h2
 
 footer
 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif; /*Should be fine to piggy back of the first declaration here.*/
 	font-size: small;
 	background-color: #FFFFFF;
 	font-weight: normal;
