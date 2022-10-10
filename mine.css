@@ -2,7 +2,7 @@ body
 {
 	font-family: Arial, Helvetica, sans-serif; /*Arial is technically web safe, so you don't need Helvetica as a back up. If anything I'd reverse it. But the design is fine. */
 	color: #000000; /*Technically this is extrainous. As black is the default. We want to code as efficinetly as possible so don't write code that the default handles for you.*/
-	font-size: small; /* Kind of glad this didn't wor */
+	font-size: small;
 	background-color: #f6b26b;
 }
 /*Headings*/
